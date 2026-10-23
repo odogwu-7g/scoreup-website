@@ -1,0 +1,13 @@
+{
+  "name": "scoreup-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Score UP Solutions website, ready for Vercel",
+  "type": "module",
+  "engines": { "node": "22.x" },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "start": "node scripts/serve.mjs",
+    "check": "node scripts/check.mjs"
+  }
+}
