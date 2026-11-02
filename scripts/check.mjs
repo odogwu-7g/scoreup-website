@@ -29,7 +29,7 @@ const home = await readFile(path.join(root, 'index.html'), 'utf8');
 assert.match(home, /action="https:\/\/formsubmit.co\/moutloaliz@gmail.com"/);
 assert.match(home, /name="_template" value="table"/);
 assert.match(home, /name="_next" value="https?:\/\/[^"\s]+\/thank-you.html"/);
-for (const person of ['Zamuxolo Moutloali', 'Vuyani Nondabula', 'Siphoesihle Nkolwanas', 'Bulelani Hlabe']) assert.ok(home.includes(person));
+for (const person of ['Zamuxolo Moutloali', 'Vuyani Nondabula', 'Siphesihle Nkolwana', 'Bulelani Hlabe']) assert.ok(home.includes(person));
 const css = await readFile(path.join(root, 'styles.css'), 'utf8');
 for (const match of css.matchAll(/url\(['"]?([^)'"\s]+)['"]?\)/g)) {
   if (!match[1].startsWith('/')) continue;
