@@ -26,7 +26,7 @@ for (const name of files.filter(file => file.endsWith('.html'))) {
   }
 }
 const home = await readFile(path.join(root, 'index.html'), 'utf8');
-assert.match(home, /action="https:\/\/formsubmit.co\/moutloaliz@gmail.com"/);
+assert.match(home, /action="https:\/\/formsubmit.co\/scoreupsolutions5@gmail.com"/);
 assert.match(home, /name="_template" value="table"/);
 assert.match(home, /name="_next" value="https?:\/\/[^"\s]+\/thank-you.html"/);
 for (const person of ['Zamuxolo Moutloali', 'Vuyani Nondabula', 'Siphesihle Nkolwana', 'Bulelani Hlabe']) assert.ok(home.includes(person));

@@ -17,7 +17,7 @@ References: [Vercel project configuration](https://vercel.com/docs/project-confi
 
 ## Callback email delivery
 
-- Recipient: **moutloaliz@gmail.com**.
+- Recipient: **scoreupsolutions5@gmail.com**.
 - Provider: **FormSubmit**; submissions are delivered as a table containing full name, mobile number, optional email address, and contact consent.
 - FormSubmit's spam check stays enabled, with an additional honeypot.
 - Visitors return to `/thank-you.html` after completing the submission.
